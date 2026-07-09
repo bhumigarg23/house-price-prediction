@@ -160,12 +160,14 @@ importance = pd.Series(
 
 fig, ax = plt.subplots(figsize=(8,4))
 
-importance.sort_values().plot.barh(ax=ax)
 
-ax.set_xlabel("Importance")
+importance.sort_values(ascending=True).plot(kind="barh", ax=ax)
+
+ax.set_title("Feature Importance")
+ax.set_xlabel("Importance Score")
 
 st.pyplot(fig)
-
+plt.close(fig)
 # -----------------------------
 # Footer
 # -----------------------------
