@@ -34,7 +34,7 @@ st.sidebar.success("Model: Gradient Boosting Regressor")
 
 st.sidebar.metric(
     label="R² Score",
-    value="0.881"
+    value="0.828"
 )
 
 st.sidebar.markdown("---")
