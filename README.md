@@ -2,32 +2,6 @@
 
 A Machine Learning web application that predicts house prices using a Gradient Boosting Regressor.
 
-## 🚀 Features
-
-- Predict house prices instantly
-- Streamlit Web App
-- Gradient Boosting Regressor
-- R² Score: **0.881**
-
-## 🛠 Technologies
-
-- Python
-- Pandas
-- Scikit-Learn
-- Streamlit
-- Joblib
-- Matplotlib
-
-## 📊 Features Used
-
-- Overall Quality
-- Ground Living Area
-- Garage Cars
-- Garage Area
-- Basement Area
-- Year Built
-- House Age
-- Full Bathrooms
 
 ## ▶️ Run Locally
 
@@ -35,7 +9,35 @@ A Machine Learning web application that predicts house prices using a Gradient B
 pip install -r requirements.txt
 streamlit run app.py
 ```
+# House Price Prediction using Machine Learning
+
+## Features
+- Data Cleaning
+- Missing Value Handling
+- Outlier Removal
+- Feature Engineering
+- Model Comparison
+- Streamlit Web App
+
+## Models Used
+- Linear Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+
+## Best Model
+Gradient Boosting Regressor
+
+R² Score: 0.828
+
+## Technologies
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Streamlit
+
 
 ## 👨‍💻 Author
-
 Bhumi
